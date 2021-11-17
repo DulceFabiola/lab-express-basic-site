@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+.banner {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212529;
+  background-image: url("/public/images/potter.jpg");
+  margin: auto;
+}
+
+span {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+.home-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+h4 {
+  margin: 20px 0;
+}
